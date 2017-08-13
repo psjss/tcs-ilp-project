@@ -1,0 +1,33 @@
+select * from PURCHASESETTOPBOX
+
+delete from PURCHASESETTOPBOX where 1=1
+
+delete from bill where 1=1
+
+delete from PURCHASECHANNELPACKAGE where 1=1;
+
+select * from PURCHASECHANNELPACKAGE
+
+select * from CHANNELSTB
+
+delete from CHANNELSTB where 1=1
+
+select * from PACKAGESTB
+
+delete from PACKAGESTB where 1=1
+
+select * from USERDETAILS
+
+delete from USERDETAILS where user_name='Kalyan'
+
+insert into USERDETAILS values ('10','user','user','user@gmail.com','9999999990','user','tcs','user')
+insert into USERDETAILS values ('11','user1','user1','user1@gmail.com','9904599990','user1','tcs1','user')
+insert into USERDETAILS values ('12','admin','admin','admin@gmail.com','8888888889','admin','tcs','admin')
+
+select * from SETTOPBOX
+select * from INVENTORYLIST
+
+select * from BILL
+
+
+
